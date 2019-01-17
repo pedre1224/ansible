@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: desinstalar vim
+    yum:
+      name: vim
+      state: absent
+        
